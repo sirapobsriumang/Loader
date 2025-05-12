@@ -12,6 +12,6 @@ elseif gameId == 4777817887 then -- Blade Ball
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/sirapobsriumang/Funky-Friday/refs/heads/main/Auto.lua"))()
 
-else
-    loadstring(game:GetHttp("https://raw.githubusercontent.com/sirapobsriumang/Universal/refs/heads/main/Universal.lua"))()
+else -- Universal
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sirapobsriumang/Universal/refs/heads/main/Universal.lua"))()
 end
